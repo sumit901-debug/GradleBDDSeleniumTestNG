@@ -1,11 +1,11 @@
-package Pages;
+package pages;
 
-import Utility.BrowserDriver;
+import utility.BrowserDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class HomePage extends BrowserDriver {
+public class HomePageTest extends BrowserDriver {
 
     private final WebDriver driver;
 
@@ -14,7 +14,7 @@ public class HomePage extends BrowserDriver {
     private final By onlineProductsPage_link_LinkText = By.linkText("Online Products");
 
     // Constructor to pass WebDriver
-    public HomePage(WebDriver driver) {
+    public HomePageTest(WebDriver driver) {
         this.driver = driver;
     }
 

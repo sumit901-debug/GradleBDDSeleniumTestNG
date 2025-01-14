@@ -1,11 +1,11 @@
-package Pages;
+package pages;
 
-import Utility.BrowserDriver;
+import utility.BrowserDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoggedInPage extends BrowserDriver {
+public class LoggedInPageTest extends BrowserDriver {
 
     private final WebDriver driver;
 
@@ -14,7 +14,7 @@ public class LoggedInPage extends BrowserDriver {
     private final By productcateogry_sneakers = By.xpath("//*[text()='Sneakers']");
 
     // Constructor to pass WebDriver
-    public LoggedInPage(WebDriver driver) {
+    public LoggedInPageTest(WebDriver driver) {
         this.driver = driver;
     }
 

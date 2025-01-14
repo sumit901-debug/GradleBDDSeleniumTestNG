@@ -1,11 +1,11 @@
-package Pages;
+package pages;
 
-import Utility.BrowserDriver;
+import utility.BrowserDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage extends BrowserDriver {
+public class LoginPageTest extends BrowserDriver {
 
     private final WebDriver driver;
 
@@ -15,7 +15,7 @@ public class LoginPage extends BrowserDriver {
     private final By newregister_btn_id =By.id("NewRegistration");
 
     // Constructor to pass WebDriver
-    public LoginPage(WebDriver driver) {
+    public LoginPageTest(WebDriver driver) {
         this.driver = driver;
     }
 

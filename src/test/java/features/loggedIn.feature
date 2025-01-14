@@ -1,6 +1,6 @@
 Feature: LoggedIn user view
 
-#  @SmokeTest
+  @Regression
   Scenario: Validate user is able to view after login
     Given User navigates to the Login page
     When User successfully  enters the log in details
